@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6562f334-506a-41b3-ae9a-728f12d3eb40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Entry/Entry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/ItemCard/ItemCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/ItemCard/ItemCard.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Register.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Auth/AuthActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Auth/AuthConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Layout/LayoutActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Layout/LayoutConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Layout/LayoutReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/session/Sagas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/CreateStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/Loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/formControls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/infoMessages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/requestControls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/validators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +21,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../V-Rap-Portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../star-wars" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +54,7 @@
       <workItem from="1620044509552" duration="17130000" />
       <workItem from="1620114745874" duration="18909000" />
       <workItem from="1620195734133" duration="17542000" />
-      <workItem from="1620289649693" duration="23615000" />
+      <workItem from="1620289649693" duration="24980000" />
     </task>
     <servers />
   </component>
