@@ -1,4 +1,4 @@
-import {ITEMS, LOAD_MORE_ITEMS_BUTTON_IS_DISABLED, LOADING, MORE_ITEMS} from "./LayoutConstants";
+import {ITEMS, LOAD_MORE_ITEMS_BUTTON_IS_DISABLED, LOADING, MORE_ITEMS} from "./Layout/LayoutConstants";
 
 
 const initialState = {
@@ -8,7 +8,7 @@ const initialState = {
     loadMoreItemsButtonIsDisabled: false
 };
 
-const LayoutReducer = (state = initialState, action) => {
+const MainReducer = (state = initialState, action) => {
     switch (action.type) {
         case ITEMS:
             return {
@@ -26,7 +26,6 @@ const LayoutReducer = (state = initialState, action) => {
                 isLoading: action.payload,
             };
         case LOAD_MORE_ITEMS_BUTTON_IS_DISABLED:
-            console.log(action)
             return {
                 ...state,
                 loadMoreItemsButtonIsDisabled: action.payload,
@@ -36,4 +35,4 @@ const LayoutReducer = (state = initialState, action) => {
             return state;
     }
 };
-export default LayoutReducer;
+export default MainReducer;

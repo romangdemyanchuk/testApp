@@ -3,7 +3,7 @@
 import React from 'react'
 
 export const required = value => {
-    if (value)  return undefined
+    if (value) return undefined
     return <span style={{color: "red"}}>Please, fill in the field!</span>
 }
 

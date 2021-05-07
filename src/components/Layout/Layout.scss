@@ -1,43 +1,6 @@
-.content-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.activeTab {
-  background-color: #1890ff !important;
-
-}
-.noActiveTab {
-  background-color: #001529 !important;
-
-}
-.ant-layout-sider-trigger {
-  display: none;
-}
-.menu {
-  position: fixed;
-  width: 200px !important;
-}
-
-@media (max-width: 1100px) {
-  .content-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 @media (max-width: 655px) {
-  .content-wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .site-layout-background {
-    padding: 0!important;
-  }
-  .ant-layout-sider {
+  .ant-layout-sider, .menu {
     max-width: 100px !important;
     min-width: 0 !important;
-  }
-  .menu {
-    width: 100px !important;
-  }
-  .ant-layout-content {
-    margin: 0 !important;
   }
 }

@@ -1,23 +1,16 @@
-import {applyMiddleware, combineReducers, compose, createStore} from "redux";
+import {applyMiddleware, combineReducers, createStore} from "redux";
 import createSagaMiddleWare from 'redux-saga'
-import thunk from "redux-thunk";
-import {sagaWatcher} from "../redux/session/Sagas";
+import {sagaWatcher} from "../redux/Sagas";
 import {reducer as formReducer} from 'redux-form'
-import LayoutReducer from "../redux/session/Layout/LayoutReducer";
+import MainReducer from "../redux/MainReducer";
 
 const saga = createSagaMiddleWare()
 
-
 const allReducers = combineReducers({
-    main: LayoutReducer,
+    main: MainReducer,
     form: formReducer
 });
-const store = createStore(allReducers,
-    compose(
-        applyMiddleware(thunk, saga),
-        window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : f => f,
-    )
-);
+const store = createStore(allReducers, applyMiddleware(saga));
 
 saga.run(sagaWatcher)
 

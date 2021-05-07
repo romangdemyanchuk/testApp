@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6562f334-506a-41b3-ae9a-728f12d3eb40" name="Default Changelist" comment="Refactoring">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Entry/Entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Entry/Entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutMenu/LayoutMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutMenu/LayoutMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Auth/AuthWorkers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Auth/AuthWorkers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Layout/LayoutWorkers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Layout/LayoutWorkers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/MainReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/MainReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/Sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/CreateStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/CreateStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/infoMessages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/infoMessages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/validators.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rnhp1NZENmn0UDS8arJtC4YTVf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../star-wars" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\react-project\src\redux" />
+      <recent name="E:\Projects\react-project\src\components\Layout\LayoutContent" />
+      <recent name="E:\Projects\react-project\src\redux\session\Layout" />
+      <recent name="E:\Projects\react-project\src\redux\session\Auth" />
+      <recent name="E:\Projects\react-project\src\components\Layout\ItemCard" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6562f334-506a-41b3-ae9a-728f12d3eb40" name="Default Changelist" comment="" />
+      <created>1619617940403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619617940403</updated>
+      <workItem from="1619617942152" duration="5381000" />
+      <workItem from="1619638192094" duration="2087000" />
+      <workItem from="1619681005758" duration="18518000" />
+      <workItem from="1620044509552" duration="17130000" />
+      <workItem from="1620114745874" duration="18909000" />
+      <workItem from="1620195734133" duration="17542000" />
+      <workItem from="1620289649693" duration="25706000" />
+      <workItem from="1620326767534" duration="940000" />
+      <workItem from="1620374370489" duration="10511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete idea" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+  </component>
+</project>
