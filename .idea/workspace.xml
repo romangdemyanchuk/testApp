@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6562f334-506a-41b3-ae9a-728f12d3eb40" name="Default Changelist" comment="Refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/lib/shared/config-validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/lib/shared/config-validator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@eslint/eslintrc/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/cli-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine/cli-engine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/init/config-file.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/init/config-file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/init/config-initializer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/init/config-initializer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/init/npm-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/init/npm-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/radix.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/radix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-atomic-updates.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-atomic-updates.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/eslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.flatten/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.flatten/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.flatten/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.flatten/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/dist/redux-thunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/dist/redux-thunk.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/es/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/alignString.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/alignString.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/alignTableData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/alignTableData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawBorder.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawBorder.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawBorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawBorder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawContent.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawContent.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawRow.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawRow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/drawTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/drawTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/generated/validators.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/generated/validators.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/generated/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/generated/validators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/getBorderCharacters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/getBorderCharacters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/makeConfig.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/makeConfig.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/makeStreamConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/makeStreamConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/mapDataUsingRowHeights.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/mapDataUsingRowHeights.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/padTableData.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/padTableData.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/padTableData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/padTableData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/truncateTableData.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/truncateTableData.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/truncateTableData.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/truncateTableData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/types/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/types/api.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/dist/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/dist/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/table/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/ItemCard/ItemCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/LayoutContent/LayoutContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/formControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/formControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/Loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/helpers/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers/validators.js" afterDir="false" />
-    </list>
+    <list default="true" id="6562f334-506a-41b3-ae9a-728f12d3eb40" name="Default Changelist" comment="Refactoring" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +59,7 @@
       <workItem from="1620326767534" duration="940000" />
       <workItem from="1620374370489" duration="10692000" />
       <workItem from="1620391595678" duration="598000" />
-      <workItem from="1620456607504" duration="6268000" />
+      <workItem from="1620456607504" duration="6358000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <created>1620462827790</created>
@@ -135,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620462827790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring">
+      <created>1620462950039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620462950039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
