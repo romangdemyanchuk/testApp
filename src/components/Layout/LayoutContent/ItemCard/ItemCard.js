@@ -1,15 +1,18 @@
 import React from "react";
 import {Card} from "antd";
 import "./ItemCard.scss"
+import {spliteUrl} from "../../../../utils/helpers/functions";
 
-const ItemCard = ({item: {name}}) => {
+const ItemCard = ({item: {url, name}, resource}) => {
+    if(resource === 'people')
+        resource = 'characters'
+    const id = spliteUrl(url)
     return  <div className="rootCard">
         <Card
             hoverable
-            className="card"
             title={name}
         >
-            {/*<img alt="itemImg" className="itemImg" src={`https://starwars-visualguide.com/assets/img/${resource}/${id}.jpg`}/>*/}
+            <img alt={`${name}Img`} className="itemImg" src={`https://starwars-visualguide.com/assets/img/${resource}/${id}.jpg`}/>
         </Card>
     </div>
 };

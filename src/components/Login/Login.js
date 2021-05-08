@@ -1,13 +1,12 @@
-/* eslint-disable */
 import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {Link, useHistory} from 'react-router-dom'
 import {reduxForm} from 'redux-form'
 import './Login.scss'
 import {LOGIN_CREATOR} from "../../redux/Auth/AuthConstants";
-import {loader} from "../../utils/helpers/loader";
-import {Form} from "../../utils/helpers/form";
 import {getFromStorage} from "../../utils/helpers/functions";
+import {Form} from "../../generic/Form";
+import {Loader} from "../../generic/Loader";
 
 const LoginForm = (props) => <Form handleSubmit={props.handleSubmit} text="Login"/>
 
@@ -22,7 +21,7 @@ const Login = () => {
     return (
         <div className="loginFormWrapper">
             {isLoading ?
-                loader() :
+                Loader() :
                 <>
                     <Link to={'register'}>to register</Link>
                     <LoginReduxForm onSubmit={onSubmit}/>
