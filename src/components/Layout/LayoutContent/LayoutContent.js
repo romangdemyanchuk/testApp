@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import {Layout} from 'antd';
-import ItemCard from "./ItemCard/ItemCard";
-import './LayoutContent.scss'
-import {Loader} from "../../../generic/Loader";
+import ItemCard from './ItemCard/ItemCard';
+import {Loader} from '../../../generic/Loader';
+import './LayoutContent.scss';
 
 const {Content} = Layout;
 
@@ -22,7 +22,6 @@ const LayoutContent = ({isLoading, items, resource}) => {
                 }
             </div>
         </div>
-
-    </Content>
+    </Content>;
 };
 export default LayoutContent;

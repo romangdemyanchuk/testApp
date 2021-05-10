@@ -1,8 +1,8 @@
-import * as axios from "axios";
+import * as axios from 'axios';
 
-const baseURL = "https://swapi.dev/api/";
+const baseURL = 'https://swapi.dev/api/';
 
-const baseAuthURL = "https://test-for-roman.herokuapp.com/api/auth/";
+const baseAuthURL = 'https://test-for-roman.herokuapp.com/api/auth/';
 
 const instance = axios.create({baseURL});
 

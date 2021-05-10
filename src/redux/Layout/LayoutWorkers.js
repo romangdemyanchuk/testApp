@@ -1,7 +1,7 @@
-import {call, put} from "redux-saga/effects";
-import {ITEMS, LOAD_MORE_ITEMS_BUTTON_IS_DISABLED, LOADING, MORE_ITEMS} from "./LayoutConstants";
-import {getItemsInfo} from "../../utils/api";
-import {error} from "../../utils/helpers/infoMessages";
+import {call, put} from 'redux-saga/effects';
+import {ITEMS, LOAD_MORE_ITEMS_BUTTON_IS_DISABLED, LOADING, MORE_ITEMS} from './LayoutConstants';
+import {getItemsInfo} from '../../utils/api';
+import {error} from '../../utils/helpers/infoMessages';
 
 export function* getItemsWorker({payload: {resource, page}}) {
     try {

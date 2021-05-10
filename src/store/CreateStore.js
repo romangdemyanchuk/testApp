@@ -1,8 +1,8 @@
-import {applyMiddleware, combineReducers, createStore} from "redux";
+import {applyMiddleware, combineReducers, createStore} from 'redux';
 import createSagaMiddleWare from 'redux-saga'
-import {sagaWatcher} from "../redux/Sagas";
+import {sagaWatcher} from '../redux/Sagas';
 import {reducer as formReducer} from 'redux-form'
-import MainReducer from "../redux/MainReducer";
+import MainReducer from '../redux/MainReducer';
 
 const saga = createSagaMiddleWare()
 
