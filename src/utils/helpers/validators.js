@@ -5,12 +5,10 @@ export const required = value => {
     return <span style={{color: "red"}}>Please, fill in the field!</span>
 }
 
-
 export const email = value =>
     value && !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)
         ? <span style={{color: "red"}}>Invalid email address!</span>
         : undefined
-
 
 export const password = value =>
     value && value.length < 6

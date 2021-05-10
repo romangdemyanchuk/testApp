@@ -1,6 +1,5 @@
 import {ITEMS, LOAD_MORE_ITEMS_BUTTON_IS_DISABLED, LOADING, MORE_ITEMS} from "./Layout/LayoutConstants";
 
-
 const initialState = {
     items: [],
     loadItems: [],

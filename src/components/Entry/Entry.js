@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../../generic/Button";
 import {Link, useHistory} from "react-router-dom";
+import {getFromStorage} from "../../utils/helpers/functions";
 
 const Entry = () => {
     const history = useHistory();
-    localStorage.getItem("isAuth") && history.push('/people')
+    getFromStorage("isAuth") && history.push('/people')
 
     return <>
         <h3 style={{textAlign: 'center'}}>My app</h3>

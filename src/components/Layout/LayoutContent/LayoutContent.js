@@ -7,8 +7,6 @@ import {Loader} from "../../../generic/Loader";
 const {Content} = Layout;
 
 const LayoutContent = ({isLoading, items, resource}) => {
-
-
     return <Content>
         <div className="site-layout-background">
             {isLoading && Loader()}

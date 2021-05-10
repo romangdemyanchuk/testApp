@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {Switch} from 'react-router'
-import Login from "./components/Login/Login";
 import MainLayout from "./components/Layout/Layout";
-import Register from "./components/Login/Register";
 import Entry from "./components/Entry/Entry";
+import Register from "./components/Auth/Register/Register";
+import Login from "./components/Auth/Login/Login";
 
 const App = () => {
     return (

@@ -31,7 +31,6 @@ const MainLayout = ({match}) => {
     const [resource, setResource] = useState(localResource)
     const [page, setPage] = useState(1)
 
-
     useEffect(() => {
         dispatch({
             type: page === 1 ? GET_ITEMS_CREATOR :
