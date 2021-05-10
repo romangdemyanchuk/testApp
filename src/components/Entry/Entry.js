@@ -1,7 +1,7 @@
 import React from 'react';
 import {Btn} from '../../generic/Button';
 import {Link, useHistory} from 'react-router-dom';
-import {getFromStorage} from '../../utils/helpers/functions';
+import {getFromStorage} from '../../utils/helpers/supportiveFunctions';
 
 const Entry = () => {
     const history = useHistory();

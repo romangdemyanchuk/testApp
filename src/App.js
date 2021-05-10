@@ -13,9 +13,9 @@ const App = () => {
                 <Route path="/" component={Entry} exact/>
                 <Route path="/register" component={Register} />
                 <Route path="/login" component={Login} />
-                <Route path="/people" component={MainLayout} />
-                <Route path="/planets" component={MainLayout} />
-                <Route path="/starships" component={MainLayout} />
+                <Route path="/people" render={() => <MainLayout path="people" />} />
+                <Route path="/planets" render={() => <MainLayout path="planets" />} />
+                <Route path="/starships" render={() => <MainLayout path="starships" />} />
             </Switch>
         </Router>
     );

@@ -17,11 +17,12 @@ const LayoutContent = ({isLoading, items, resource}) => {
                             item={item}
                             resource={resource}
                             key={item.url}
-                        />
+                        />;
                     })
                 }
             </div>
         </div>
+
     </Content>;
 };
 export default LayoutContent;

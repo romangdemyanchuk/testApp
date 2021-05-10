@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {Link, useHistory} from 'react-router-dom';
 import {reduxForm} from 'redux-form';
 import {Form} from '../../../generic/Form';
-import {getFromStorage} from '../../../utils/helpers/functions';
+import {getFromStorage} from '../../../utils/helpers/supportiveFunctions';
 import {REGISTER_CREATOR} from '../../../redux/Auth/AuthConstants';
 import {Loader} from '../../../generic/Loader';
 import './Register.scss';

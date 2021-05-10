@@ -1,7 +1,7 @@
 import {call, put} from 'redux-saga/effects';
 import {LOADING} from '../Layout/LayoutConstants';
 import {login, register} from '../../utils/api';
-import {redirect, setToStorage} from '../../utils/helpers/functions';
+import {redirect, setToStorage} from '../../utils/helpers/supportiveFunctions';
 import {error, success} from '../../utils/helpers/infoMessages';
 
 export function* registerWorker({payload:{formData, history}}) {

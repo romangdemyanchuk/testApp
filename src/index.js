@@ -10,6 +10,7 @@ import 'antd/dist/antd.css';
 render(
     <BrowserRouter>
         <Provider store={store}>
+
             <App/>
         </Provider>
     </BrowserRouter>,

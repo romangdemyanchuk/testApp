@@ -1,12 +1,12 @@
 import React from 'react';
 import {Card} from 'antd';
-import {spliteUrl} from '../../../../utils/helpers/functions';
+import {splitUrl} from '../../../../utils/helpers/supportiveFunctions';
 import './ItemCard.scss';
 
 const ItemCard = ({item: {url, name}, resource}) => {
     if(resource === 'people')
         resource = 'characters'
-    const id = spliteUrl(url)
+    const id = splitUrl(url)
     return <div className="rootCard">
         <Card
             hoverable
